@@ -1,0 +1,89 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+.rotate-270 {
+  transform: rotate(270deg);
+}
+.rotate--270 {
+  transform: rotate(-270deg);
+}
+.transition-sopacity{
+  transition: opacity 500ms;
+}
+.transition-sfont{
+  transition: font-size 500ms;
+}
+.stroke-dasharray-754{
+  stroke-dasharray: 754;
+}
+.stroke-white{
+  stroke:white;
+}
+.stroke-red{
+  stroke:#ff0000b1;
+}
+.stroke-dashoffset-0{
+  stroke-dashoffset: 0;
+}
+.fill-none{
+  fill:none;
+}
+.transition-width{
+  transition-property: width;
+}
+.transition-bgcolor{
+  transition-property: background-color;
+}
+.menu-effect{
+  animation: menu-effect 0.25s;
+}
+@keyframes w {
+  from{
+    opacity: 0.3;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@variants responsive{
+  .leading-unset{
+    line-height:unset;
+  }
+  .pos-unset{
+    position: unset;
+  }
+  .stroke-10{
+    stroke-width: 10;
+  }
+  .stroke-8{
+    stroke-width: 8;
+  }
+  .translate-0-0{
+    transform: translate(0%,0%);
+  }
+  .translate-0--50{
+    transform: translate(0%,-50%);
+  }
+  .translate--50-0{
+    transform: translate(-50%,0%);
+  }
+  .translate--50--50{
+    transform: translate(-50%,-50%);
+  }
+  .translate-50--50 {
+    transform: translate(50%,-50%);
+  }
+}
+@variants hover {
+  .text-shadow-1 {
+    text-shadow: 1px 1px 9px #606060;
+  }
+  .text-shadow-2 {
+    text-shadow: 2px 2px 14px #000000;
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
+}
