@@ -1,4 +1,4 @@
-# Portfolio Websites | _James Sun_
+# _James Sun_
 **Development** => Work of mine  
 **Design** => Inspired by many websites (including [melaniedaveid](https://www.melaniedaveid.com/))  
 **Technologies used** => HTML, CSS -> {Tailwind CSS}, JS -> {jQuery}  
