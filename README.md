@@ -1,0 +1,1 @@
+Awards => Selected by BuiltWithTailwind, as one of the best websites created through Tailwind CSS (the project is now disbanded)
